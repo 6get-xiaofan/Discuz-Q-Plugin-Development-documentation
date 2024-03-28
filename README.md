@@ -4,7 +4,7 @@
 
 由于 Discuz! Q 程序在 2022 年初腾讯团队停更并交由开源社区维护，其官网和[插件开发文档](https://developer.discuz.chat/#/plugin/start)已经无法访问，现在我将原文档迁移到 Github，以便大家能够继续查阅。
 
-Discuz! 原团队由于一些原因已经重新收回 Discuz! Q 项目，并决定在未来继续维护 Discuz! Q 项目。
+Discuz! 原团队由于一些原因已经重新收回 Discuz! Q 项目，并决定在未来继续维护 Discuz! Q 项目，欢迎各位开发者开发一些便利的插件回馈社区。
 
 本文档主要是原文档的内容，各位 Discuz! Q 插件开发者可以继续查阅并完善此文档。
 
@@ -37,3 +37,5 @@ Discuz! 原团队由于一些原因已经重新收回 Discuz! Q 项目，并决�
    - [帖子详情页Hook列表](./hooks/plugin_detail_hooks.md) 
    - [发帖页Hook列表](./hooks/plugin_post_hooks.md) 
    - [个人中心Hook列表](./hooks/plugin_user_center_hooks.md) 
+
+

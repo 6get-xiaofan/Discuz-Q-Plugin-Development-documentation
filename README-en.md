@@ -4,7 +4,7 @@
 
 Due to the discontinuation of the Discuz! Q program by the Tencent team in early 2022 and its transfer to the open source community for maintenance, its official website and [plugin development documentation](https://developer.discuz.chat/#/plugin/start) have been inaccessible. Now I have migrated the original documentation to Github so that everyone can continue to view it.
 
-Due to some reasons, the original team of Discuz! has reclaimed the Discuz! Q project and decided to continue to maintain the Discuz! Q project in the future.
+Due to some reasons, the original team of Discuz! has reclaimed the Discuz! Q project and decided to continue to maintain the Discuz! Q project in the future. Welcome developers to develop some convenient plugins to give back to the community
 
 This document mainly contains the content of the original document. Discuz! Q plugin developers can continue to review and improve this document.
 
