@@ -118,7 +118,7 @@ this.props.pluginAction.set('shop', {
 
 具体可以参见
 
-[https://developer.discuz.chat/#/plugin/docs-hooks-common_props.md](https://web.archive.org/web/20230520034614mp_/https://developer.discuz.chat/#/plugin/docs-hooks-common_props.md)
+[通用参数列表](../hooks/common_props.md)
 
 我们可以基于它，去实现在各个组件中的数据传递和共享
 

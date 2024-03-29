@@ -12,9 +12,9 @@ Router.push({ url: '' })
 
 ## API
 
-> 小程序参数参见 [https://taro-docs.jd.com/taro/docs/apis/route/reLaunch/](https://web.archive.org/web/20230520034614mp_/https://taro-docs.jd.com/taro/docs/apis/route/reLaunch/)
+> 小程序参数参见 [https://taro-docs.jd.com/docs/apis/route/reLaunch/](https://taro-docs.jd.com/docs/apis/route/reLaunch/)
 >
-> web 参数参见 [https://www.nextjs.cn/docs/api-reference/next/router](https://web.archive.org/web/20230520034614mp_/https://www.nextjs.cn/docs/api-reference/next/router)
+> web 参数参见 [https://www.nextjs.cn/docs/api-reference/next/router](https://www.nextjs.cn/docs/api-reference/next/router)
 
 | 方法名         | 参数类型                                                     | 描述       | 平台 |
 | :------------- | :----------------------------------------------------------- | :--------- | :--- |

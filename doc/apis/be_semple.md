@@ -308,9 +308,9 @@ $route->get('register/list', 'register.list', \Plugin\Activity\Controller\ListCo
 
 例如:
 
-- 查看列表接口url：`https://web.archive.org/web/20230520034731/https://discuz.chat/plugin/activity/api/register/list`
-- 参与报名接口url：`https://web.archive.org/web/20230520034731/https://discuz.chat/plugin/activity/api/register/append`
-- 取消报名接口url：`https://web.archive.org/web/20230520034731/https://discuz.chat/plugin/activity/api/register/cancel`
+- 查看列表接口url：`https://discuz.chat/plugin/activity/api/register/list`
+- 参与报名接口url：`https://discuz.chat/plugin/activity/api/register/append`
+- 取消报名接口url：`https://discuz.chat/plugin/activity/api/register/cancel`
 
 ##### 接口替换
 
@@ -444,7 +444,7 @@ View/
     "app_id":"6177c3415793a",
     "version": "1.0.0",
     "status":1,
-    "icon":"https:\/\/web.archive.org\/web\/20230520034731\/https:\/\/discuz.chat\/dzq-img\/active.png",
+    "icon":"https:\/\/discuz.chat\/dzq-img\/active.png",
     "filter_enable":false,
     "author":{
         "name":"腾讯科技（深圳）有限公司",
@@ -484,7 +484,7 @@ View/
     "app_id":"6177c3415793a",
     "version":"1.0.0",
     "status":1,
-    "icon":"https://web.archive.org/web/20230520034731/https://discuz.chat/dzq-img/active.png ",
+    "icon":"https://discuz.chat/dzq-img/active.png ",
     "filter_enable":false,
     "author":{
         "name":"腾讯科技（深圳）有限公司",
@@ -502,10 +502,10 @@ View/
             "disables":false,
             "pluginFiles":{
                 "css":[
-                    "https://web.archive.org/web/20230520034731/http://v3.go/plugin/CustomIfram2/CustomIfram/index.css "
+                    "http://v3.go/plugin/CustomIfram2/CustomIfram/index.css "
                 ],
                 "js":[
-                    "https://web.archive.org/web/20230520034731/http://v3.go/plugin/CustomIfram2/CustomIfram/index.js "
+                    "http://v3.go/plugin/CustomIfram2/CustomIfram/index.js "
                 ]
             }
         },
@@ -523,7 +523,7 @@ View/
             "disables":false,
             "pluginFiles":{
                 "js":[
-                    "https://web.archive.org/web/20230520034731/http://v3.go/plugin/CustomIfram2/CustomIframDisplay/index.js "
+                    "http://v3.go/plugin/CustomIfram2/CustomIframDisplay/index.js "
                 ]
             }
         },
@@ -538,7 +538,7 @@ View/
             "disables":false,
             "pluginFiles":{
                 "js":[
-                    "https://web.archive.org/web/20230520034731/http://v3.go/plugin/CustomIfram2/CustomIframPost/index.js "
+                    "http://v3.go/plugin/CustomIfram2/CustomIframPost/index.js "
                 ]
             }
         }

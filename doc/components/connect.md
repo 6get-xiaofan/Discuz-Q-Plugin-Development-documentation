@@ -14,7 +14,7 @@
 
 ### 通过共同的数据存储通信
 
-> 上文我们介绍了 `Discuz! Q` 中数据存储的方案，参见 [http://developer.discuz.chat/#/plugin/docs-store.md](https://web.archive.org/web/20230520034614mp_/http://developer.discuz.chat/#/plugin/docs-store.md)
+> 上文我们介绍了 `Discuz! Q` 中数据存储的方案，参见 [插件数据储存](./store.md)
 
 官方最为推崇的一种方案是，基于官方提供的数据存储 `store` ，来完成彼此之间的相互交流
 
@@ -48,7 +48,7 @@ console.log(data.a);
 3. 如果不处理事件的销毁时机，可能会造成内存泄漏
 4. 通过注册事件的机制，在某种程度上属于违反了React推崇的自上而下的传递事件及参数的原则，可能会带来数据源混乱的情况
 
-综合上述考虑，暂时官方并不提供内置的事件机制去支持这种方式实现，但如果开发者`必须`需要这样的机制实现插件功能，可以通过社区的实现方案[https://github.com/krasimir/EventBus。](https://web.archive.org/web/20230520034614mp_/https://github.com/krasimir/EventBus。)
+综合上述考虑，暂时官方并不提供内置的事件机制去支持这种方式实现，但如果开发者`必须`需要这样的机制实现插件功能，可以通过社区的实现方案[https://github.com/krasimir/EventBus](https://github.com/krasimir/EventBus)。
 
 在 `A` 组件中我们进行事件的注册
 

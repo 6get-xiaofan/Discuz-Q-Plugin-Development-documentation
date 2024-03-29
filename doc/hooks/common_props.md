@@ -33,7 +33,7 @@
 
 ## dzqRouter
 
-dzqRouter是处理当前站点的跳转处理以及当前路由信息返回的一个对象，可以通过打印看到内部结构取值使用。 详细文档[SDK](https://web.archive.org/web/20230520034614mp_/https://developer.discuz.chat/#/sdk/src-router)
+dzqRouter是处理当前站点的跳转处理以及当前路由信息返回的一个对象，可以通过打印看到内部结构取值使用。 详细文档[SDK](../other/src_router.md)
 
 ## dzqRequest & dzqRequestHandleError
 

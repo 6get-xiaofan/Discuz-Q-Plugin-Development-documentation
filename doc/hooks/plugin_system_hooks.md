@@ -70,7 +70,7 @@
 
 web 端的生命周期与 React 的标准生命周期一致，可以完全适用
 
-[https://react.docschina.org/docs/react-component.html](https://web.archive.org/web/20230520034614mp_/https://react.docschina.org/docs/react-component.html)
+[https://react.docschina.org/learn/your-first-component](https://react.docschina.org/learn/your-first-component)
 
 ### 小程序端页面生命周期映射
 
@@ -80,7 +80,7 @@ web 端的生命周期与 React 的标准生命周期一致，可以完全适用
 
 对应的生命周期列表如下
 
-[https://taro-docs.jd.com/taro/docs/react-page/](https://web.archive.org/web/20230520034614mp_/https://taro-docs.jd.com/taro/docs/react-page/)
+[https://taro-docs.jd.com/docs/react-page](https://taro-docs.jd.com/docs/react-page)
 
 在 页面插件中 注册 对应生命周期 的方法如下
 
@@ -112,4 +112,4 @@ componentDidMount() {
 
 详细配置项列表
 
-[https://taro-docs.jd.com/taro/docs/page-config](https://web.archive.org/web/20230520034614mp_/https://taro-docs.jd.com/taro/docs/page-config)
+[https://taro-docs.jd.com/docs/page-config](https://taro-docs.jd.com/docs/page-config)

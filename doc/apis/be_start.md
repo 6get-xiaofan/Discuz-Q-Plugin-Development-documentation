@@ -6,7 +6,7 @@
 
 ### 环境搭建
 
-在开始开发您的Discuz! Q应用之前，需要安装一个可正常访问的站点，阅读 **[安装文档](https://web.archive.org/web/20230520034614mp_/https://discuz.com/docs/Linux 主机.html#nginx)** 依据步骤安装好站点环境。
+在开始开发您的Discuz! Q应用之前，需要安装一个可正常访问的站点，阅读 **[安装文档](https://doc.q.discuz.vip/guide/install-linux.html#nginx)** 依据步骤安装好站点环境。
 
 ### 项目结构
 
