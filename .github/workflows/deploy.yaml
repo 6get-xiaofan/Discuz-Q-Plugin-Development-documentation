@@ -53,29 +53,36 @@ jobs:
           name: vitepress-dist
           path: docs/.vitepress/dist
 
-  # 部署工作
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    name: Deploy
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: page # 检查到名为 "page" 的分支
-          repository: ${{ github.repository }} # 从当前仓库检查out
-      - name: Restore artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: vitepress-dist
-          path: docs/.vitepress/dist # 将构建的文件下载到正确的位置
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Deploy VitePress site to Pages"
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+# 部署工作
+deploy:
+  runs-on: ubuntu-latest
+  needs: build
+  name: Deploy
+  steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+
+    - name: Create page branch if not exists
+      run: |
+        if ! git show-ref --verify --quiet refs/heads/page; then
+          git checkout -b page
+          git push origin page
+        fi
+
+    - name: Restore artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: vitepress-dist
+        path: docs/.vitepress/dist # 将构建的文件下载到正确的位置
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Deploy VitePress site to Pages"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
