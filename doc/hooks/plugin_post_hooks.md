@@ -20,14 +20,14 @@
 | :---------------- | :----------------------- | :----------------------------------------------------------- |
 | renderData        | object                   | 当前符合插件提交的数据，用于数据展示                         |
 | onConfirm         | function                 | 保存到发帖数据中存储                                         |
-| showPluginDialog  | function<ReactComponent> | 小程序有效，小程序因层级问题，此方法可调用小程序提供的一个全局对话框进行交互 |
+| showPluginDialog  | `function<ReactComponent>` | 小程序有效，小程序因层级问题，此方法可调用小程序提供的一个全局对话框进行交互 |
 | closePluginDialog | function                 | 小程序有效，小程序因层级问题，此方法可关闭小程序提供的一个全局对话框进行交互 |
 | postData          | object                   | 当前发帖页面的状态数据                                       |
 | postData.navInfo  | object                   | 主要用与小程序，用与描述一些布局位置                         |
 
 ### onConfirm入参：
 
-```css
+```jaascript
 postData: {
     tomId: 自定义id（请勿重复）,
     body: {
@@ -54,9 +54,9 @@ postData: {
 | :---------------- | :----------------------- | :----------------------------------------------------------- |
 | renderData        | object                   | 当前符合插件提交的数据，用于数据展示                         |
 | siteData          | object                   | 站点配置信息，由/apiv3/forum接口，返回数据                   |
-| updatePlugin      | function<object>         | 更新到发帖数据中存储                                         |
+| updatePlugin      | `function<object>`         | 更新到发帖数据中存储                                         |
 | deletePlugin      | function<>               | 删除插件数据                                                 |
-| showPluginDialog  | function<ReactComponent> | 小程序有效，小程序因层级问题，此方法可调用小程序提供的一个全局对话框进行交互 |
+| showPluginDialog  | `function<ReactComponent>` | 小程序有效，小程序因层级问题，此方法可调用小程序提供的一个全局对话框进行交互 |
 | closePluginDialog | function<>               | 小程序有效，小程序因层级问题，此方法可关闭小程序提供的一个全局对话框进行交互 |
 | postData          | object                   | 当前发帖页面的状态数据                                       |
 | postData.navInfo  | object                   | 主要用与小程序，用与描述一些布局位置                         |
@@ -64,7 +64,7 @@ postData: {
 
 ### updatePlugin入参：
 
-```css
+```jaascript
 postData: {
     tomId: 自定义id（请勿重复）,
     body: {
