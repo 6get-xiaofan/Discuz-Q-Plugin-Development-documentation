@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "DiscuzQ",
+  title: "DiscuzQ 插件开发文档",
   description: "DiscuzQ 插件开发文档",
   lastUpdated: true,
   base: '/Discuz-Q-Plugin-Development-documentation/',
@@ -10,6 +10,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/public/favicon.png' }]
   ],
+  
   themeConfig: {
     logo: '/public/logo.png',
 

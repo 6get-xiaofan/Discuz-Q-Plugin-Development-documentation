@@ -7,7 +7,7 @@ hero:
   text: "插件开发文档"
   tagline: "助力开发者快速插件开发，同步官主流程迭代不脱钩"
   image: 
-    src: /images/logo.png
+    src: /public/logo.png
     alt: DiscuzQ Logo
   actions:
     - theme: brand
