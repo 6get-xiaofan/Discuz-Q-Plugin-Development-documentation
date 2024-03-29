@@ -5,6 +5,7 @@ export default defineConfig({
   title: "DiscuzQ",
   description: "DiscuzQ 插件开发文档",
   lastUpdated: true,
+  base: '/Discuz-Q-Plugin-Development-documentation/',
   themeConfig: {
     logo: '../images/logo.png',
 
