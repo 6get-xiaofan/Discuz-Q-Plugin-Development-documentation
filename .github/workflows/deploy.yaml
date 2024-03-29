@@ -48,14 +48,7 @@ jobs:
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
-
-      - name: Check if gh-pages branch exists
-        run: |
-            if ! git show-ref --verify --quiet refs/heads/gh-pages; then
-            git checkout -b gh-pages
-            git push origin gh-pages
-            fi
-
+        
       - name: Restore artifact
         uses: actions/download-artifact@v2
         with:
