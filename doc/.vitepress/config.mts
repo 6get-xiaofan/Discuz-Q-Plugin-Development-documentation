@@ -7,7 +7,7 @@ export default defineConfig({
   lastUpdated: true,
   base: '/Discuz-Q-Plugin-Development-documentation/',
   themeConfig: {
-    logo: '../images/logo.png',
+    logo: '/doc/images/logo.png',
 
     outline: [2, 3],
 
