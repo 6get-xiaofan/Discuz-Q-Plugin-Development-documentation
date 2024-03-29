@@ -26,8 +26,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: pnpm
+            node-version: 20
+            cache: pnpm
+            path: /path/to/pnpm
+
 
       - name: Install dependencies
         run: pnpm install
@@ -49,12 +51,12 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v4
 
-      - name: Check if page branch exists
+      - name: Check if gh-pages branch exists
         run: |
-          if ! git show-ref --verify --quiet refs/heads/page; then
-            git checkout -b page
-            git push origin page
-          fi
+            if ! git show-ref --verify --quiet refs/heads/gh-pages; then
+            git checkout -b gh-pages
+            git push origin gh-pages
+            fi
 
       - name: Restore artifact
         uses: actions/download-artifact@v2
@@ -72,4 +74,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: gh-pages  # Specify the branch to push changes to
+
+
