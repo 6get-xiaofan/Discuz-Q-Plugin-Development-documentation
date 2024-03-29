@@ -123,12 +123,16 @@
 
 如上，其中 `selectProductPage` 目录对应了 `h5` 和 `小程序` 中新增的选择商品
 
-`qrCodePage` 目录对应了 `h5` 的微信小商店二维码页面
+ > `qrCodePage` 目录对应了 `h5` 的微信小商店二维码页面
 
-```
-选择商品页面` 对应的页面路径分别为 web -> `/plugin/selectProduct`，小程序 -> `/pluginPages/selectProduct/index
-小商店二维码页面` 对应的页面路径分别为 web -> `/plugin/minishop/qrcode`，小程序 -> `/pluginPages/minishop/qrcode/index
-```
+ > `选择商品页面`对应的页面路径分别为 `web` -> `/plugin/selectProduct`
+
+ > `小程序` -> `/pluginPages/selectProduct/index`
+
+ > `小商店二维码页面` 对应的页面路径分别为 `web` -> `/plugin/minishop/qrcode`
+ 
+ > `小程序` -> `/pluginPages/minishop/qrcode/index`
+
 
 ## 自定义 API 调用
 
