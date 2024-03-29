@@ -10,7 +10,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/public/favicon.png' }]
   ],
-  
+
   themeConfig: {
     logo: '/public/logo.png',
 
@@ -74,7 +74,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/6get-xiaofan/Discuz-Q-Plugin-Development-documentation/tree/main/docs/:path',
+      pattern: 'https://github.com/6get-xiaofan/Discuz-Q-Plugin-Development-documentation/blob/main/doc/:path',
       text: '页面有问题？去编辑',
     },
 
