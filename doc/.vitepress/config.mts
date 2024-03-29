@@ -6,8 +6,12 @@ export default defineConfig({
   description: "DiscuzQ 插件开发文档",
   lastUpdated: true,
   base: '/Discuz-Q-Plugin-Development-documentation/',
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/public/favicon.png' }]
+  ],
   themeConfig: {
-    logo: '/doc/images/logo.png',
+    logo: '/public/logo.png',
 
     outline: [2, 3],
 
